@@ -31,4 +31,4 @@ autoKill.start();
 
 ## Лицензия
 
-`Autokills` доступен на условиях лицензии MIT. Подробную информацию можно найти в файле <a href="https://github.com/Sempai-07/autokills/main/LICENSE">LICENSE</a>.
+`Autokills` доступен на условиях лицензии MIT. Подробную информацию можно найти в файле <a href="https://github.com/Sempai-07/autokills/blob/main/LICENSE">LICENSE</a>.
