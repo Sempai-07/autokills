@@ -9,7 +9,7 @@ class AutoKill {
       console.error('Auto Kill: [No Time Provided, Defaulting to 40 Seconds!]');
     }
     if (time < 5000) {
-      throw new Error('Time Must Be More Than 5 Seconds');
+      throw new ErrorTime('Time Must Be More Than 5 Seconds');
     }
 
     this.client = client;
@@ -77,7 +77,7 @@ class AutoKill {
   
   setTime(time) {
     if (time < 5000) {
-        throw new Error('Time must be more than 5 seconds');
+        throw new ErrorTime('Time must be more than 5 seconds');
     }
     this.time = time;
   }
@@ -112,7 +112,7 @@ class AutoKill {
   
   setClient(client) {
     if (!client) {
-        throw new Error('Provide the Client!');
+        throw new ErrorClient('Provide the Client!');
     }
     this.client = client;
   }
