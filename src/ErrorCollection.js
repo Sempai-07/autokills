@@ -10,8 +10,7 @@ class ErrorClient extends Error {
   }
 };
 
-class ErrorTime extends Error {
-  constructor(error) {
-    super(error);
-  }
-};
+module.exports = {
+  ErrorTime,
+  ErrorClient
+}
