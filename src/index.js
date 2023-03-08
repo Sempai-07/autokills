@@ -1,3 +1,5 @@
+const { ErrorTime, ErrorClient } = require("./ErrorCollection.js");
+
 class AutoKill {
   constructor(client, time) {
     if (!client) {
