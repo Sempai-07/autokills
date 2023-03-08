@@ -1,0 +1,15 @@
+{
+  "name": "autokills",
+  "version": "1.0.1",
+  "description": "This library is responsible for automatically stopping the process after a certain amount of time. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "autokill",
+    "js",
+    "discord.js"
+  ],
+  "license": "ISC"
+}
